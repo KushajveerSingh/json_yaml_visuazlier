@@ -34,7 +34,8 @@ export default class MyDocument extends Document {
           <meta name="twitter:description" content={description} />
           <meta name="twitter:image" content={image} />
 
-          <link rel="manifest" href="/manifest.json" />
+          <link rel="shortcut icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} />
+          <link rel="manifest" href="/json_yaml_visuazlier/manifest.json" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
           <meta name="emotion-insertion-point" content="" />
           {(this.props as any).emotionStyleTags}

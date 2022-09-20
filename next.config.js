@@ -7,8 +7,8 @@ const nextConfig = {
     path: '',
   },
   basePath: '/json_yaml_visuazlier',
-  assetPrefix: '/json_yaml_visuazlier/',
-  // assetPrefix: './',
+  // assetPrefix: '/json_yaml_visuazlier/',
+  assetPrefix: './',
 };
 
 module.exports = nextConfig;

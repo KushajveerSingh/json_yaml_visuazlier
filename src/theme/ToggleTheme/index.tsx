@@ -1,6 +1,6 @@
 import Button from '@mui/material/Button';
 import { useAppDispatch } from '../../store/hooks';
-import { toggleTheme } from '../../theme/themeSlice';
+import { toggleTheme } from '../themeSlice';
 
 export const ToggleTheme = () => {
   const dispatch = useAppDispatch();

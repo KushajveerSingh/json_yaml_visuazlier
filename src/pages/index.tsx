@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 
 import Button from '@mui/material/Button';
-import { ToggleTheme } from '../components/ToggleTheme';
+import { ToggleTheme } from '../theme/ToggleTheme';
 
 const Home: NextPage = () => {
   return (
